@@ -9,7 +9,7 @@
     flex-direction: column;
     background: aquamarine;
     justify-content: center;
-    background: url("/landpage.avif");
+    background: url("landpage.avif");
     background-size: cover;
     object-fit: cover;
     text-wrap: nowrap;
