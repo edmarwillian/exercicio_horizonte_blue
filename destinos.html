@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Horizonte Blue - Destinos</title>
+
+        <link rel="stylesheet" type="text/css" href="global.css">
+        <link rel="stylesheet" type="text/css" href="destinos.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <h1>Horizonte Blue</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="./">Início</a></li>
+                        <li><a href="./destinos.html">Destinos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>O que você procura?</h1>
+                <div class="selecionar">
+                    <label for="praia">Praia</label>
+                    <input type="checkbox" name="praia" id="praia">
+                    <label for="montanha">Montanha</label>
+                    <input type="checkbox" name="montanha" id="montanha">
+                    <label for="neve">Neve</label>
+                    <input type="checkbox" name="neve" id="neve">
+                </div>
+            </section>
+            <section>
+                <div class="cards">
+                    <article class="card">
+                        <div>
+                            <img src="paris.avif" alt="Paris, França">
+                            <h3>Paris, França</h3>
+                        </div>
+                        <div>
+                            <p><strong style="color: #ed8300;">Clima</strong><br>Temperado (4 Estações)</p>
+                            <hr>
+                            <p><strong style="color: #ed8300;">Moeda</strong><br>Euro (EUR)</p>
+                            <hr>
+                            <p><strong style="color: #ed8300;">Idioma local</strong><br>Francês</p>
+                            <hr>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div>
+                            <img src="alpes.jpg" alt="Alpes Suíços">
+                            <h3>Alpes Suíços</h3>
+                        </div>
+                        <div>
+                            <p><strong style="color: #ed8300;">Clima</strong><br>Frio Alpino / Neve</p>
+                            <hr>
+                            <p><strong style="color: #ed8300;">Moeda</strong><br>Franco Suíço (CHF)</p>
+                            <hr>
+                            <p><strong style="color: #ed8300;">Idioma local</strong><br>Alemão, Francês, Italiano</p>
+                            <hr>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section>
+                <div class="orcamento">
+                    <div>
+                        <h2>Solicite seu Orçamento</h2>
+                    </div>
+                    <div>
+                        <form>
+                            <div>
+                                <label for="nome">Nome Completo:</label>
+                                <input type="text" name="nome" id="nome" placeholder="Ex: João Silva" required>
+                            </div>
+                            <div>
+                                <label for="email">E-mail de Contato:</label>
+                                <input type="text" name="email" id="email" placeholder="exemplo@email.com" required>
+                            </div>
+                            <div>
+                                <label for="data">Data Desejada:</label>
+                                <input type="date" name="data" id="data" required>
+                            </div>
+                            <div>
+                                <label for="detalhes">Detalhes da Viagem</label>
+                                <textarea name="detalhes" id="detalhes" cols="30" rows="10" placeholder="Conte-nos sobre seus planos..."></textarea>
+                            </div>
+                            <button type="submit">Enviar Solicitação</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <div>
+                    <p>© 2026 Horizonte Blue - Viagens & Turismo</p>
+                </div>
+                <div>
+                    <p>Contatos: (11) 9999-9999 | contato@horizonteblue.com.br</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
