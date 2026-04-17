@@ -26,9 +26,9 @@
     --input-bg-color: color-mix(in srgb, var(--table-bg-color) 95%, white);
 }
 
-body {
+html, body {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     min-width: fit-content;
     flex-direction: column;
     color: var(--text-color-bg);
@@ -40,6 +40,7 @@ main {
     gap: 5rem;
     padding: 2rem;
     display: flex;
+    height: 100%;
     flex-direction: column;
 }
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Horizonte Blue - Início</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/login.css">
+
+  <script src="scripts/theme.js"></script>
+  <script src="scripts/login.js"></script>
+</head>
+<body>
+<header>
+  <nav>
+    <div>
+      <h1>Horizonte Blue</h1>
+    </div>
+    <div>
+      <ul>
+        <li><a href="./cadastro.html">Registrar</a></li>
+        <li><button onclick="trocarTema()" id="trocar-tema"></button></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="login-section">
+    <form id="login-form">
+      <div>
+        <h1>Entrar</h1>
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+      </div>
+      <div>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+      </div>
+      <button type="button" onclick="fazerLogin()">Entrar</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <div>
+    <div>
+      <p>© 2026 Horizonte Blue - Viagens & Turismo</p>
+    </div>
+    <div>
+      <p>Contatos: (11) 9999-9999 | contato@horizonteblue.com.br</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
